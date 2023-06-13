@@ -1,0 +1,35 @@
+_id: req_047dadfc123540fdaf9dd25468e793bd
+type: Request
+parentId: wrk_ebd7ba906a014fb0a6100eb44031538b
+modified: 1686693843560
+created: 1686691383590
+url: http://localhost:9090/api/vagas/18
+name: atualizaVaga
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"titulo": "Vaga 111111",
+    	"descricao":"Vaga teste kkkkkkkkkkkkkkkkkkkkkkkk ",
+    	"ativo":"s",
+    	"data": "2023-05-20"
+    }
+parameters: []
+headers:
+  - id: pair_c096dc77916a453f819cfbcb7900f67a
+    name: X-Api-Key
+    value: 862a2f7d-a9a4-488a-a3d8-299e9875df7es
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683960707626
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

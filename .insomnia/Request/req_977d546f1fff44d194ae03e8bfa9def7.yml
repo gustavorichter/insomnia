@@ -1,0 +1,35 @@
+_id: req_977d546f1fff44d194ae03e8bfa9def7
+type: Request
+parentId: wrk_ebd7ba906a014fb0a6100eb44031538b
+modified: 1686693870366
+created: 1686691150778
+url: http://localhost:9090/api/vaga/19
+name: retornaVaga
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bb6d0d4240fd4abeb57df0fadb335858
+  - id: pair_1409050797b2433fa704697946932425
+    name: X-Api-Key
+    value: 862a2f7d-a9a4-488a-a3d8-299e9875df7es
+    description: ""
+authentication:
+  type: apikey
+  disabled: false
+  key: ""
+  value: ""
+  addTo: header
+metaSortKey: -1683202965705
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
